@@ -4,8 +4,7 @@ import ProductContainer from './ProductContainer';
 
 const MainContainer = () => {
   return (
-    <div>
-        <Search/>
+    <div className='ml-2 p-2'>
         <ProductContainer/>
     </div>
   )
